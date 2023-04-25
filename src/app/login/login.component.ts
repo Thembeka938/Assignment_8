@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
 
     login(): void {
 
-      const users = JSON.parse(localStorage.getItem('clients') || '[]');
+      const users = JSON.parse(localStorage.getItem('user') || '[]');
       
       const user = users.find((user:any)=> user.email === this.email && user.password === this.password);
 
