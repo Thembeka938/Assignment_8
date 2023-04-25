@@ -1,0 +1,90 @@
+.main_container{
+    background-color: #279f7b;
+    height: 100vh;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.rememberMeDiv{
+    display: flex;
+    gap: 25px;
+}
+button{
+    width: 70%;
+    background-color: #279f7b;
+    border-radius: 5px;
+    border: none;
+    height: 5%;
+    color: #fff;
+}
+
+
+.inputs{
+    width: 70%; 
+    height: 5%;
+    border-radius: 5px;
+    border-color: azure;
+}
+h2{
+    margin-top: -20%;
+}
+h1{
+    font-size: 70px;
+    margin-left: 20px;
+    color: #fff;
+    
+}
+h4{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -4%;
+   
+}
+#buttomBTn{
+    display: flex;
+    height: 30px;
+    margin-top: 40%;
+    width: 100%;
+    background-color: white;
+    color: rgb(117, 117, 114);
+}
+#subHeader{
+    color: #fff;
+    font-size: small;
+    word-spacing: 15%;
+}
+.rightPart{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#lastBtn{
+    width: 70px;
+}
+.leftPart{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: white;
+    height: 70%;
+    width: 50%;
+    border-radius: 5%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.rememberMeInnerDiv{
+    display: flex;
+    flex-direction: row;
+    
+   
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+
+<div class="wrapper">
+    <div class="left_part">
+      <div class="uppertext">
+      <h3>Welcome</h3>
+      <p style="font-size: small;">You are 30 seconds away<br> from earning your own<br> money!</p>
+    </div>
+      <button id="loginId" type="submit"  (click)="directTologin()"><b>login</b></button>
+    </div>
+  
+    <div class="right_part">
+      <div class="upperNamv">
+        <button class="empBtn">Employee</button><p class="hirer">hirer</p>
+      </div>
+      <h2>Apply as an Employee</h2>
+      <form (submit)="recordDetails()">
+        <div class="textboxes">
+        <div class="left_textBoxes">
+        
+          <div class="form-group">
+            
+            <input type="text" class="txtB" [(ngModel)]="name" placeholder="First Name *" name="name" id="name" required>
+          </div>
+          <div class="form-group">
+            
+            <input type="text" class="txtB" [(ngModel)]="surname" name="surname" placeholder="Last Name *" id="lastname" required>
+          </div>
+          <div class="form-group">
+           
+            <input type="password" class="txtB" [(ngModel)]="password" placeholder="Password *" name="password" id="password" required>
+          </div>
+          <div class="form-group">
+       
+            <input type="password" class="txtB" [(ngModel)]="confirmPassword" placeholder="Confirm Password *" name="confirmPassword" id="confirmPassword" required>
+           
+           
+          </div>
+          
+        </div>
+  
+        <div class="right_textBoxes">
+          <div class="form-group">
+          
+            <input type="email" class="txtB" [(ngModel)]="email" name="email" id="email" placeholder="Your Email *" required>
+          </div>
+          <div class="form-group">
+            
+            <input type="tel" class="txtB" [(ngModel)]="phone" name="phone" id="phone" placeholder="Your Phone *" required>
+          </div>
+          <div class="form-group">
+            
+            <select [(ngModel)]="securityQuestion" class="txtB" name="securityQuestion" id="securityQuestion"  title="securityQuestion"  required>
+              <option value="">Please select your Security Question</option>
+              
+            </select>
+          </div>
+          <div class="form-group">
+           
+            <input type="text" class="txtB" [(ngModel)]="answer" placeholder="Enter Your Answer *" name="answer" id="answer" required>
+          </div>
+        
+          
+
+        </div>
+        
+      </div>
+      <div class="radios">
+        <div>
+          <input name="gender" id="male" type="radio">
+          <label for="male">Male</label>
+          
+          <input name="gender" id="female" type="radio">
+          <label for="female">Female</label>
+        </div></div>
+      <button id="regBtn" type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

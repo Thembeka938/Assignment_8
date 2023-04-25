@@ -1,0 +1,125 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right,#3636B2,#00C4FE);
+     font-family:Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left_part{
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25%;
+    height: 700px;
+}
+.uppertext{
+    color: #fff;
+}
+.textboxes{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    justify-content: center;
+    margin-top: 25%;
+    color: #D8D8D8;
+    
+}
+input{
+    border-color: hsl(213, 43%, 96%);
+    background-color: white;
+    outline: none;
+   
+}
+.radios{
+    display: flex;
+    flex-direction: row;
+    color: black;  
+}
+.txtB{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+#regBtn{
+    width: 30%;
+    height: 30px;
+    border-radius: 30px;
+    background-color:#0062CC;
+    color: #ffff;
+    border: none;
+    margin-left: 75%;
+}
+.empBtn{
+   height: 20px;
+    border-radius: 30px;
+    background-color:#ffff;
+    color:#0062CC ;
+    border: none;
+    margin-left: 3px;
+}
+.hirer{
+    color: white;
+}
+h2{
+    color: #495057;
+}
+#loginId{
+    width: 30%;
+    height: 30px;
+    border-radius: 30px;
+    background-color:white;
+    color:  black;
+    border: none;  
+    margin-left: -20%;
+}
+.right_textBoxes{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;  
+    justify-content: center;
+}
+.upperNamv{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-left: 70%;
+    margin-top: 3%;
+    gap: 18%;
+    width: 15%;
+    height: 25px;
+    background-color:#0062CC;
+    border-radius: 30px;
+}
+.left_textBoxes{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+select{
+    border-color: #b7b7bb;
+    background-color: white;
+}
+.right_part{
+    background-color: #F8F9FA;
+    width: 75%;  
+   height: 500px;
+   margin-top: 5%;
+   margin-left: -3%;
+   border-radius: 140px 0px 0px 140px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+
+ 
+}
+
+
