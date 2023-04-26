@@ -25,7 +25,7 @@ user:any={}
     return;
   }
   usersA.push(this.user);
-  localStorage.setItem('clients',JSON.stringify(usersA));
+  localStorage.setItem('user',JSON.stringify(usersA));
   alert("registered");
   this.router.navigate(['/login'])
  }
