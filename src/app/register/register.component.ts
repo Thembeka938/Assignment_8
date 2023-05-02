@@ -9,14 +9,20 @@ import { UserService } from '../user.service';
 })
 export class RegisterComponent implements OnInit {
 user:any={}
+  userService: any;
  
- constructor(private router:Router, private userService:UserService){}
+ constructor(private router:Router, private userServi:UserService){}
  ngOnInit(): void {
   console.log("user object", this.user)
  this.user= this.userService.user
  
  }
  recordDetails(){
+if (this.userServi.user.name==="" ||this.userService.surname===""){
+  alert("please fill this field");
+  return;
+}
+
   
  const usersA=JSON.parse(localStorage.getItem('users')||'[]');
   const foundUser =usersA.find((user:any)=>user.email=="");
